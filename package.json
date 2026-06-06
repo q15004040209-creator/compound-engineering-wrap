@@ -1,0 +1,27 @@
+{
+  "name": "compound-engineering-wrap",
+  "version": "1.0.0",
+  "description": "Compound Engineering plugin wrapper - Claude Code/Cursor/Codex multi-platform AI engineering assistant",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "tsc && node dist/test.js",
+    "demo": "node dist/demo.js"
+  },
+  "keywords": [
+    "claude-code",
+    "cursor",
+    "codex",
+    "compound-engineering",
+    "ai-agent",
+    "claude",
+    "coding-assistant"
+  ],
+  "author": "q15004040209-creator",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^25.9.2",
+    "typescript": "^5.9.3"
+  }
+}
